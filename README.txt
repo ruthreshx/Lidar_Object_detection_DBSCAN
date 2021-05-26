@@ -1,0 +1,88 @@
+# Object_detection_DBSCAN
+As a first step we have install the dependent libraries using pip or conda under conda environment.
+
+import numpy as np
+import pykitti
+from timeit import default_timer as timer 
+import numpy as np
+import pandas as pd
+from PIL import Image
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+from sklearn import linear_model
+from sklearn.cluster import DBSCAN
+#from cuml.cluster import DBSCAN
+from sklearn.preprocessing import StandardScaler
+from collections import Counter
+import imageio
+import cv2
+import vispy.scene
+from vispy.scene import visuals
+from vispy import app, scene
+import sys
+from timeit import default_timer as timer
+import os
+import flask
+import cv2
+from flask import Flask, render_template, request,Response
+import time
+import imageio
+-----------------------------------------------------------------------------------------------------------
+
+#from cuml.cluster import DBSCAN
+Especially this package runs under GPU which helps to reduce the runtime of DBSCAN. We have import Rapids.0.18 api
+Conda cmd :conda install -c rapidsai -c nvidia -c numba -c conda-forge cudf=0.19 python=3.7 cudatoolkit=10.1
+#https://github.com/rapidsai/cudf
+#https://github.com/rapidsai/cuml 
+
+------------------------------refer this content------------------------------------------------------------------
+
+SEGMENTATION - lINEAR REGRESSION ( RANSAC - RANDOM SAMPLE CONSENSUS )
+
+from sklearn import linear_model
+
+#https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RANSACRegressor.html
+
+To separate the ground plane(Inliers) and outliers. Which helps to reduce the computation time for further process.
+
+------------------------------refer this content ------------------------------------------------------------------
+
+CLUSTERING - DBSCAN ( DENSITY BASED CLUSTERING AND NOISE )
+
+
+#https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html
+
+From the separated outliers we have move the data into Sklearn DBSCAN/CUML DBSCAN( Mentioned in above refer content )
+to cluster the individual objects based on the given minpoints and Eps(radius) value.
+
+
+------------------------------refer this content ------------------------------------------------------------------
+
+VISUALIZATION - MATPLOTLIB
+
+#https://matplotlib.org/
+
+From the clustered object we have to plot the bounding box on top of the each clustered object.
+Finding the min,max for the each axis(XYZ). 
+
+------------------------------refer this content ------------------------------------------------------------------
+
+FLASK API 
+
+#https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
+
+For the each frames we have save it in the system and Overrides the each file where hosted it on the web page using various ports(http://127.0.0.1:2222/)
+
+
+------------------------------refer this content ------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
