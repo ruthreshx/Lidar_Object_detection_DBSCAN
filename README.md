@@ -1,8 +1,12 @@
 #http://www.cvlibs.net/datasets/kitti/raw_data.php
-We have downloaded Kitti sequence file.
+
+Under this website we have downloaded Kitti sequence file.
 
 # Object_detection_DBSCAN
+
 As a first step we have to install the dependent libraries using pip or conda under conda environment.
+
+Mentioned in Requirements.txt
 
 
 -----------------------------------------------------------------------------------------------------------
