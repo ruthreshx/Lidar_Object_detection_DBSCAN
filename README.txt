@@ -20,8 +20,6 @@ from collections import Counter
 import imageio
 import cv2
 import vispy.scene
-from vispy.scene import visuals
-from vispy import app, scene
 import sys
 from timeit import default_timer as timer
 import os
