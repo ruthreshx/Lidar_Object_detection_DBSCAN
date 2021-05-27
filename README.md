@@ -1,3 +1,8 @@
+
+          
+                  
+# Object_detection_DBSCAN
+
 #http://www.cvlibs.net/datasets/kitti/raw_data.php
 
 Under this website we have downloaded Kitti sequence file.
@@ -16,9 +21,6 @@ Sequence file Structure:
           |----calib_cam_to_cam.txt
           |----calib_imu_to_velo.txt
           |----calib_velo_to_cam.txt
-          
-                  
-# Object_detection_DBSCAN
 
 As a first step we have to install the dependent libraries using pip or conda under conda environment.
 
