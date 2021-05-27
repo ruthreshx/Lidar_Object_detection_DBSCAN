@@ -90,9 +90,13 @@ For the each frames we have save it in the system and Overrides the each file wh
 
 ----------------------------------------------------------------------------------------------------------------------
 
-
-
-
+This Entire pipeline which helps to get a knowledge on Clustering and Segmenatation.
+The point cloud data collected from the LIDAR sensors are processed, then
+an input image is given for all the views and the corresponding plots are made.
+Later, the pipeline is used for segmentation and clustering the data, the minimum and maximum
+values to create bounding boxes are derived from the DBSCAN cluster values and
+the bounding boxes are made. The output is plotted on the web page with the use of
+flask with >8Fps Rate.
 
 
 
