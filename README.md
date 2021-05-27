@@ -16,7 +16,7 @@ Conda cmd :conda install -c rapidsai -c nvidia -c numba -c conda-forge cudf=0.19
 
 ----------------------------------------------------------------------------------------------------------------------
 
-SEGMENTATION - lINEAR REGRESSION ( RANSAC - RANDOM SAMPLE CONSENSUS )
+**SEGMENTATION - lINEAR REGRESSION ( RANSAC - RANDOM SAMPLE CONSENSUS )**
 
 from sklearn import linear_model
 
@@ -28,7 +28,7 @@ To separate the ground plane(Inliers) and outliers. Which helps to reduce the co
 ----------------------------------------------------------------------------------------------------------------------
 
 
-CLUSTERING - DBSCAN ( DENSITY BASED CLUSTERING AND NOISE )
+**CLUSTERING - DBSCAN ( DENSITY BASED CLUSTERING AND NOISE )**
 
 
 #https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html
@@ -39,7 +39,7 @@ to cluster the individual objects based on the given minpoints and Eps(radius) v
 
 ----------------------------------------------------------------------------------------------------------------------
 
-VISUALIZATION - MATPLOTLIB
+**VISUALIZATION - MATPLOTLIB**
 
 #https://matplotlib.org/
 
@@ -49,7 +49,7 @@ Finding the min,max for the each axis(XYZ).
 
 ----------------------------------------------------------------------------------------------------------------------
 
-FLASK API 
+**FLASK API **
 
 #https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
 
