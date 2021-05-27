@@ -13,7 +13,7 @@ We have import Rapids.0.18 api
 
 **Cmd:**
 
-1.Conda cmd :conda install -c rapidsai -c nvidia -c numba -c conda-forge cudf=0.19 python=3.7 cudatoolkit=10.1
+      Conda cmd :conda install -c rapidsai -c nvidia -c numba -c conda-forge cudf=0.19 python=3.7 cudatoolkit=10.1
 
 
 #https://github.com/rapidsai/cudf
@@ -23,7 +23,7 @@ We have import Rapids.0.18 api
 
 **SEGMENTATION - lINEAR REGRESSION ( RANSAC - RANDOM SAMPLE CONSENSUS )**
 
-from sklearn import linear_model
+    from sklearn import linear_model
 
 #https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RANSACRegressor.html
 
@@ -58,7 +58,7 @@ Finding the min,max for the each axis(XYZ).
 
 ----------------------------------------------------------------------------------------------------------------------
 
-****FLASK API ****
+**Flask API**
 
 #https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
 
