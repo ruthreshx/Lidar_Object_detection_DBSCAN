@@ -36,6 +36,7 @@ To separate the ground plane(Inliers) and outliers. Which helps to reduce the co
 From the separated outliers we have move the data into Sklearn DBSCAN/CUML DBSCAN( Mentioned in above refer content )
 to cluster the individual objects based on the given minpoints and Eps(radius) value.
 
+![Screenshot (31)](https://user-images.githubusercontent.com/84854222/119773586-7c28d500-bede-11eb-8e54-836c743dc961.png)
 
 ----------------------------------------------------------------------------------------------------------------------
 
