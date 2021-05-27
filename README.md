@@ -10,7 +10,12 @@ As a first step we have to install the dependent libraries using pip or conda un
 #from cuml.cluster import DBSCAN
 Especially this package runs under GPU which helps to reduce the runtime of DBSCAN.
 We have import Rapids.0.18 api
-Conda cmd :conda install -c rapidsai -c nvidia -c numba -c conda-forge cudf=0.19 python=3.7 cudatoolkit=10.1
+
+**Cmd:**
+
+1.Conda cmd :conda install -c rapidsai -c nvidia -c numba -c conda-forge cudf=0.19 python=3.7 cudatoolkit=10.1
+
+
 #https://github.com/rapidsai/cudf
 #https://github.com/rapidsai/cuml 
 
