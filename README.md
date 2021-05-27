@@ -23,6 +23,7 @@ from sklearn import linear_model
 #https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RANSACRegressor.html
 
 To separate the ground plane(Inliers) and outliers. Which helps to reduce the computation time for further process.
+![in_out](https://user-images.githubusercontent.com/84854222/119775054-b2ffea80-bee0-11eb-829f-51f3488bf8af.png)
 
 
 ----------------------------------------------------------------------------------------------------------------------
@@ -36,7 +37,8 @@ To separate the ground plane(Inliers) and outliers. Which helps to reduce the co
 From the separated outliers we have move the data into Sklearn DBSCAN/CUML DBSCAN( Mentioned in above refer content )
 to cluster the individual objects based on the given minpoints and Eps(radius) value.
 
-![Screenshot (31)](https://user-images.githubusercontent.com/84854222/119773586-7c28d500-bede-11eb-8e54-836c743dc961.png)
+
+![splitted cluster1](https://user-images.githubusercontent.com/84854222/119775076-ba26f880-bee0-11eb-9371-eb86186b17d8.png)
 
 ----------------------------------------------------------------------------------------------------------------------
 
@@ -55,6 +57,7 @@ Finding the min,max for the each axis(XYZ).
 #https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
 
 For the each frames we have save it in the system and Overrides the each file where hosted it on the web page using various ports(http://127.0.0.1:2222/)
+![Screenshot (20)](https://user-images.githubusercontent.com/84854222/119775119-cca13200-bee0-11eb-96e5-3551c4745a02.png)
 
 
 ----------------------------------------------------------------------------------------------------------------------
