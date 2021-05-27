@@ -4,30 +4,7 @@ We have downloaded Kitti sequence file.
 # Object_detection_DBSCAN
 As a first step we have to install the dependent libraries using pip or conda under conda environment.
 
-import numpy as np
-import pykitti
-from timeit import default_timer as timer 
-import numpy as np
-import pandas as pd
-from PIL import Image
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
-from sklearn import linear_model
-from sklearn.cluster import DBSCAN
-#from cuml.cluster import DBSCAN
-from sklearn.preprocessing import StandardScaler
-from collections import Counter
-import imageio
-import cv2
-import vispy.scene
-import sys
-from timeit import default_timer as timer
-import os
-import flask
-import cv2
-from flask import Flask, render_template, request,Response
-import time
-import imageio
+
 -----------------------------------------------------------------------------------------------------------
 
 #from cuml.cluster import DBSCAN
