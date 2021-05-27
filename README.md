@@ -2,6 +2,22 @@
 
 Under this website we have downloaded Kitti sequence file.
 
+Sequence file Structure:
+
+          R:\2011_09_26
+          |----2011_09_26_drive_0048_sync
+          |       |----image_00 (dir)
+          |       |----image_01 (dir)
+          |       |----image_02 (dir)
+          |       |----image_03 (dir)
+          |       |----oxts     (dir)
+          |       |----velodyne_points (dir)
+          |       |----tracklet_labels
+          |----calib_cam_to_cam.txt
+          |----calib_imu_to_velo.txt
+          |----calib_velo_to_cam.txt
+          
+                  
 # Object_detection_DBSCAN
 
 As a first step we have to install the dependent libraries using pip or conda under conda environment.
