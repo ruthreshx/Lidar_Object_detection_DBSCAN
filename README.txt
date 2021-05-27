@@ -1,5 +1,8 @@
+#http://www.cvlibs.net/datasets/kitti/raw_data.php
+We have downloaded Kitti sequence file.
+
 # Object_detection_DBSCAN
-As a first step we have install the dependent libraries using pip or conda under conda environment.
+As a first step we have to install the dependent libraries using pip or conda under conda environment.
 
 import numpy as np
 import pykitti
@@ -45,7 +48,9 @@ from sklearn import linear_model
 
 To separate the ground plane(Inliers) and outliers. Which helps to reduce the computation time for further process.
 
-------------------------------refer this content ------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------
+
 
 CLUSTERING - DBSCAN ( DENSITY BASED CLUSTERING AND NOISE )
 
@@ -56,7 +61,7 @@ From the separated outliers we have move the data into Sklearn DBSCAN/CUML DBSCA
 to cluster the individual objects based on the given minpoints and Eps(radius) value.
 
 
-------------------------------refer this content ------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
 
 VISUALIZATION - MATPLOTLIB
 
@@ -65,7 +70,8 @@ VISUALIZATION - MATPLOTLIB
 From the clustered object we have to plot the bounding box on top of the each clustered object.
 Finding the min,max for the each axis(XYZ). 
 
-------------------------------refer this content ------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------
 
 FLASK API 
 
@@ -74,11 +80,7 @@ FLASK API
 For the each frames we have save it in the system and Overrides the each file where hosted it on the web page using various ports(http://127.0.0.1:2222/)
 
 
-------------------------------refer this content ------------------------------------------------------------------
-
-
-
-
+----------------------------------------------------------------------------------------------------------------------
 
 
 
