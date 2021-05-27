@@ -1,0 +1,12 @@
+Using pip or Conda installation:
+
+1.numpy
+2.matplotlib
+3.sklearn
+4.scikit-learn
+5.pillow
+6.image.io
+7.pandas
+8.Image
+9.Flask
+10.Opencv
