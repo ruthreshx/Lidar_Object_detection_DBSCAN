@@ -14,7 +14,7 @@ Conda cmd :conda install -c rapidsai -c nvidia -c numba -c conda-forge cudf=0.19
 #https://github.com/rapidsai/cudf
 #https://github.com/rapidsai/cuml 
 
-------------------------------refer this content------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
 
 SEGMENTATION - lINEAR REGRESSION ( RANSAC - RANDOM SAMPLE CONSENSUS )
 
