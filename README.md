@@ -73,8 +73,7 @@ to cluster the individual objects based on the given minpoints and Eps(radius) v
 
 #https://matplotlib.org/
 
-From the clustered object we have to plot the bounding box on top of the each clustered object.
-Finding the min,max for the each axis(XYZ). 
+From the clustered object we have to plot the bounding box on top of the each clustered object by finding the min,max for the each axis(XYZ). 
 
 
 
