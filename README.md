@@ -48,7 +48,7 @@ to cluster the individual objects based on the given minpoints and Eps(radius) v
 
 From the clustered object we have to plot the bounding box on top of the each clustered object.
 Finding the min,max for the each axis(XYZ). 
-![BBoxop](https://user-images.githubusercontent.com/84854222/119775322-11c56400-bee1-11eb-9c8d-6a0bb9372e47.png)
+
 
 
 ----------------------------------------------------------------------------------------------------------------------
