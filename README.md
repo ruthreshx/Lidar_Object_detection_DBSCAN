@@ -43,7 +43,7 @@ We have import Rapids.0.18 api
 
 ----------------------------------------------------------------------------------------------------------------------
 
-**SEGMENTATION - lINEAR REGRESSION ( RANSAC - RANDOM SAMPLE CONSENSUS )**
+**SEGMENTATION - LINEAR REGRESSION ( RANSAC - RANDOM SAMPLE CONSENSUS )**
 
     from sklearn import linear_model
 
